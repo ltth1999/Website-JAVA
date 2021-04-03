@@ -1,0 +1,80 @@
+
+/*----*/
+.footer-middle{
+	background-color: #006266;
+	padding:2em 0;
+	border-bottom:5px solid #5c5c5c;
+}
+.footer-middle-in {
+  float: left;
+  width: 20%;
+}
+.footer-middle-in  h6{
+	color:#fff;
+	font-size:1.3em;
+	padding:0 0 0.4em;
+	text-transform:uppercase;
+}
+.footer-middle-in  p{
+	color:#fff;
+	font-size:0.9em;
+	line-height:1.9em;
+	width: 79%;
+}
+.footer-middle-in  ul li{
+	list-style:none;
+}
+.footer-middle-in  ul li a{
+	color:#c9c9c9;
+	font-size:0.9em;
+	text-decoration:none;
+	padding:0 0 0.5em ;
+	display:block;
+}
+.footer-middle-in  ul li a:hover{
+	color:#f95a32;
+}
+.footer-class{
+	color:#c9c9c9;
+	font-size:1em;
+	text-align:center;
+	background:#4b4b4b;
+	padding:2em 0;
+}
+.footer-class a{
+	color:#f95a32;
+	text-decoration:none;
+}
+.footer-class a:hover{
+	color:#c9c9c9;
+}
+#toTop {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 25px;
+  right: 10px;
+  overflow: hidden;
+  width: 52px;
+  height: 52px;
+  border: none;
+  text-indent: 100%;
+  background: url('../images/up.png') no-repeat 0px 0px;
+}
+@media(max-width:1024px){
+ul.social-in {
+  width: 27%;
+}
+.footer-middle-in {
+  float: none;
+  width: 100%;
+  padding:0 0 1em;
+}
+.footer-middle-in p {
+  width: 100%;
+  height: 74px;
+}
+
+.footer-middle {
+  padding: 2em 0 0;
+}
